@@ -1,0 +1,29 @@
+#btns {
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    grid-template-columns: 75px 75px 75px 75px;
+  }
+  
+  .btn {
+    background-color: #1A1A1A;
+    color: cyan;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+  }
+  
+  #acItem {
+    grid-column: 1/3;
+    color: red;
+  }
+  
+  #zeroBtn {
+    grid-column: 1/4;
+  }
+  
+  #equalBtn {
+    color: white;
+  }
