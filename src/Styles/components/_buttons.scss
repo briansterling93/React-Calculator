@@ -1,11 +1,11 @@
 #btns {
     display: grid;
-    grid-template-rows: 80px 80px 80px 80px 80px;
+    grid-template-rows: 70px 70px 70px 70px 70px;
     grid-template-columns: 75px 75px 75px 75px;
   }
   
   .btn {
-    background-color: #1A1A1A;
+    background-color: #1C1C1C;
     color: cyan;
     font-weight: bold;
     font-size: 20px;
@@ -24,6 +24,6 @@
     grid-column: 1/4;
   }
   
-  #equalBtn {
-    color: white;
-  }
+ #actionBtn {
+   color: white;
+ }

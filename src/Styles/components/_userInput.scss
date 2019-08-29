@@ -1,8 +1,15 @@
-#result {
-    width: 300px;
-    height: 180px;
-    background-color: #c2b08d;
-    border: 7px solid black;  
-  }
+// #userInput {
+//   display: flex;
+// }
 
+// #userResult {
+//   justify-content: center;
+// }
   
+
+#inputContainer {
+  display: flex;
+  flex-direction: space-between;
+  flex-direction: column;
+  text-align: right;
+}
