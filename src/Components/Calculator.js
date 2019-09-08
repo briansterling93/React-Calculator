@@ -36,7 +36,7 @@ class Calculator extends React.Component {
     render() {
         return (
 <div id='main'>
-  <h1>React Calculator</h1>
+  <h1 id='title'>React Calculator</h1>
   <div id='result'>
     <div id='inputContainer'>
     <div id='userInput'>
